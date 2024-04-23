@@ -70,6 +70,37 @@
     - If any new code changes break the production application, you can immediately return the application to its previous state. Usually, the last successful build gets immediately deployed to prevent production outages.
     - It provides extensive logs for every build as a report.
 
+# Dockerize the application
+
+- We can use **Docker** to run our application with PostgreSQL.
+- Step #1: Create a `docker-compose.yml` file with the following configurations:
+
+  ```yml
+  services:
+    db:
+      container_name: db
+      image: postgres:13
+      environment:
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: postgres
+        POSTGRES_DB: postgres
+      ports:
+        - 5432:5432
+      volumes:
+        - pgdata:/var/lib/postgresql/data
+
+  volumes:
+    pgdata: {}
+  ```
+
+- Step #2: Run `docker compose up -d`
+- Check if the container is running by: `docker ps -a`
+- Step into the db container by:
+  ```sh
+    docker exec -it db psql -U postgres
+  ```
+- Now that you are in the Postgres container, you can type: `\l` or `\dt` And you should see no relations.
+
 # Resources
 
 1. [Next.js deployment documentation](https://nextjs.org/docs/deployment)

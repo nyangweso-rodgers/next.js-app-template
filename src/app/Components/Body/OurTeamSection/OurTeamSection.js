@@ -10,8 +10,9 @@ const OurTeamSection = () => {
                 <Image
                   src="/images/google-bigquery-logo.png"
                   alt="Google BigQuery Logo"
-                  width="100"
-                  height="24"
+                  width="800"
+                  height="600"
+                  layout="responsive"
                 />
                 <div className={`card-body`}></div>
               </a>
@@ -21,8 +22,9 @@ const OurTeamSection = () => {
                 <Image
                   src="/images/JavaScript-logo.png"
                   alt="Google BigQuery Logo"
-                  width="100"
-                  height="24"
+                  width="800"
+                  height="600"
+                  layout="responsive"
                 />
                 <div className={`card-body`}></div>
               </a>
@@ -32,8 +34,9 @@ const OurTeamSection = () => {
                 <Image
                   src="/images/next.js-logo.jpg"
                   alt="Google BigQuery Logo"
-                  width="100"
-                  height="24"
+                  width="800"
+                  height="600"
+                  layout="responsive"
                 />
                 <div className={`card-body`}></div>
               </a>
