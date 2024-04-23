@@ -26,9 +26,54 @@
 
 - Project has been deployed on Vercel. Access it through, https://vercel.com/nyangwesos-rodgers/my-nextjs-app and web app on https://my-nextjs-app-sigma-ochre.vercel.app/
 
+# Setup CI/CD with Github Action
+
+- There are several means of setting up CI/CD. **GitHub action** workflow is one of them.
+- Step #1:
+  - Create a `.github/` directory which will contain the setup for CI/CD.
+  - For GitHub to identify the setup, the folder name must be written as **workflows**, if not, the GitHub action will not run a pipeline for the setup.
+  - Create a `workflows/` folder inside the `.github/` folder.
+- Step #2:
+
+  - Code content:
+
+    - we use a `.yml` file as the file extension for setting up our GitHub workflow actions.
+    - Create a `main.yml` file inside the `.github/workflows/` with the following contents:
+
+      ```yml
+      #main.yml
+      name: Build
+
+      on:
+        push:
+          branches:
+            - main
+        workflow_dispatch:
+
+      jobs:
+        # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+        - uses: actions/checkout@v3
+
+        - name: Setup Node
+          uses: actions/setup-node@v2
+          with:
+            node-version: 16.x
+
+        - name: Install dependencies
+          run: npm install
+      ```
+
+- Remarks:
+  - Benefits of CI/CD:
+    - With a CI/CD pipeline, you can test and deploy code more frequently, giving testers the ability to detect issues as soon as they occur and to fix them immediately. You are essentially mitigating risks in real-time.
+    - With a CI/CD pipeline, extensive logging information is generated at each stage of the development process. There are various tools available to analyse these logs effectively and get immediate feedback about the system.
+    - If any new code changes break the production application, you can immediately return the application to its previous state. Usually, the last successful build gets immediately deployed to prevent production outages.
+    - It provides extensive logs for every build as a report.
+
 # Resources
 
 1. [Next.js deployment documentation](https://nextjs.org/docs/deployment)
 2. [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 3. [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 4. [the Next.js GitHub repository](https://github.com/vercel/next.js/)
+5. [Setup CI/CD with Github Action in Nextjs](https://blog.curtisdev.com/setup-cicd-with-github-action-in-nextjs)
