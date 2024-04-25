@@ -22,10 +22,29 @@ main {
   padding: 4rem 0;
   border: 1px dotted red;
 }
+
 .card {
-  padding: 1rem 1.2rem;
+  margin: 1rem 0;
+  border: 1px solid #eaeaea;
 }
 footer {
-  padding: 2rem 0;
+  padding: 3rem 0;
   border: 1px solid rgb(86, 199, 25);
+}
+.fa-brands {
+  text-decoration: none;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.fa-brands:hover {
+  opacity: 0.7;
+}
+.fa-github,
+.fa-x-twitter {
+  color: #333333;
+}
+
+.fa-hashnode {
+  color: #2563eb;
 }

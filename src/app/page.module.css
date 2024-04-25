@@ -1,4 +1,3 @@
-
 .description {
   display: inherit;
   justify-content: inherit;
@@ -26,8 +25,7 @@
   border-radius: var(--border-radius);
 }
 
-
-
+/*
 .card span {
   display: inline-block;
   transition: transform 200ms;
@@ -45,13 +43,13 @@
   line-height: 1.5;
   max-width: 30ch;
   text-wrap: balance;
-}
+}*/
 
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  /*position: relative;*/
   padding: 4rem 0;
 }
 /*
@@ -80,19 +78,11 @@
 }
 */
 
-
 /* Mobile */
 /*
 @media (max-width: 700px) {
   .content {
     padding: 4rem;
-  }
-
-  .grid {
-    grid-template-columns: 1fr;
-    margin-bottom: 120px;
-    max-width: 320px;
-    text-align: center;
   }
 
   .card {
@@ -154,15 +144,6 @@
     grid-template-columns: repeat(2, 50%);
   }
 }
-
-@media (prefers-color-scheme: dark) {
-  .vercelLogo {
-    filter: invert(1);
-  }
-
-  .logo {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
 }
 
 @keyframes rotate {
@@ -174,3 +155,33 @@
   }
 }
 */
+
+.flexContainerWithFlexStart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flexContainerWithFlexEnd {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+.flexContainerWithFlexStart > div,
+.flexContainerWithFlexStart > a,
+.flexContainerWithFlexEnd > div {
+  margin: 0 1rem;
+  text-align: center;
+}
+/* Mobile */
+@media (max-width: 700px) {
+  .flexContainerWithFlexStart,
+  .flexContainerWithFlexEnd {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
