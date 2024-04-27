@@ -1,17 +1,18 @@
-//SurveyHeader component
+"use client";
 
-const SurveyHeader = () => {
+const BlogAppHeader = () => {
   return (
     <>
       <header>
         <nav className={`navbar navbar-expand-md`}>
           <div className={`container`}>
-            <span className={`navbar-brand`}>Survey App Header</span>
+            <a className={`navbar-brand`} href="#">
+              Blog Header
+            </a>
           </div>
         </nav>
       </header>
     </>
   );
 };
-
-export default SurveyHeader;
+export default BlogAppHeader;
