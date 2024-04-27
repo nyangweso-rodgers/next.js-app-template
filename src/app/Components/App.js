@@ -1,13 +1,12 @@
-import BlogHeader from "./Common/AppHeader/BlogHeader/BlogHeader";
-import OurTeamSection from "./Body/OurTeamSection/OurTeamSection";
+import SurveyHeader from "./Common/AppHeader/SurveyHeader/SurveyHeader";
+import ExhibitionSurveyForm from "./FormTemplates/ExhibitionSurveyForm/ExhibitionSurveyForm";
 import AppFooter from "../Components/Common/AppFooter/AppFooter";
-//import BlogSection from "./Body/BlogSection/BlogSection";
+
 const App = () => {
   return (
     <>
-      <BlogHeader />
-      <OurTeamSection />
-
+      <SurveyHeader />
+      <ExhibitionSurveyForm />
       <AppFooter />
     </>
   );
