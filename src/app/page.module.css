@@ -116,33 +116,58 @@
   }
 }
 */
-
-
-.flexContainerWithFlexStart {
+.displayFlexRowStart {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
   justify-content: flex-start;
-}
-
-.flexContainerWithFlexEnd {
-  display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: flex-end;
 }
-.flexContainerWithFlexStart > div,
-.flexContainerWithFlexStart > a,
-.flexContainerWithFlexEnd > div {
-  margin: 0 1rem;
-  text-align: center;
+.displayFlexRowCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.displayFlexRowEnd {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.displayFlexColumnStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.displayFlexColumnCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.btn {
+  cursor: pointer;
+}
+.cardButton {
+  border: 1px solid #555555;
+  color: #000;
+}
+
+.trainBookingForm {
+  background-color: #792d39;
+  color: #fff;
 }
 /* Mobile */
 @media (max-width: 700px) {
-  .flexContainerWithFlexStart,
-  .flexContainerWithFlexEnd {
+  .displayFlexRowStart,
+  .displayFlexRowEnd {
     flex-direction: column;
     justify-content: flex-start;
   }

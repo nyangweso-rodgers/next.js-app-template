@@ -4,7 +4,7 @@ const ExhibitionSurveyForm = () => {
       <main>
         <form className={`container`}>
           <div className={`row`}>
-            <div className={`col-md-4`}>
+            <div className={`col-md-3`}>
               <div>
                 <label className={`form-label`}>First name</label>
                 <input
@@ -14,7 +14,7 @@ const ExhibitionSurveyForm = () => {
                 ></input>
               </div>
             </div>
-            <div className={`col-md-4`}>
+            <div className={`col-md-3`}>
               <div>
                 <label className={`form-label`}>Last name</label>
                 <input
@@ -24,7 +24,18 @@ const ExhibitionSurveyForm = () => {
                 ></input>
               </div>
             </div>
-            <div className={`col-md-4`}>
+            <div className={`col-md-3`}>
+              <div>
+                <label className={`form-label`}>Phone number</label>
+                <input
+                  className={`form-control`}
+                  type="text"
+                  placeholder="Phone Number"
+                ></input>
+              </div>
+            </div>
+
+            <div className={`col-md-3`}>
               <div>
                 <label className={`form-label`}>Email address</label>
                 <input
