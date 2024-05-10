@@ -1,4 +1,4 @@
-const PricingTemplate = () => {
+const OurPricingPage = () => {
   return (
     <>
       <main>
@@ -90,4 +90,4 @@ const PricingTemplate = () => {
   );
 };
 
-export default PricingTemplate;
+export default OurPricingPage;

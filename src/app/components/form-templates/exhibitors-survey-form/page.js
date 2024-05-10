@@ -1,4 +1,4 @@
-const ExhibitionSurveyForm = () => {
+const ExhibitionSurveyFormPage = () => {
   return (
     <>
       <main>
@@ -97,4 +97,4 @@ const ExhibitionSurveyForm = () => {
   );
 };
 
-export default ExhibitionSurveyForm;
+export default ExhibitionSurveyFormPage;

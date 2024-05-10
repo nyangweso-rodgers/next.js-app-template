@@ -11,35 +11,6 @@
   font-weight: 400;
 }
 
-
-.card {
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  text-decoration: none;
-}
-
-footer {
-  padding: 2rem 0;
-  background-color: #dce2f0;
-}
-.fa-brands {
-  text-decoration: none;
-  font-size: 2rem;
-  text-align: center;
-}
-
-.fa-brands:hover {
-  opacity: 0.7;
-}
-.fa-github,
-.fa-x-twitter {
-  color: #333333;
-}
-
-.fa-hashnode {
-  color: #2563eb;
-}
 input[type="text"],
 input[type="email"] {
   border-radius: 10px;

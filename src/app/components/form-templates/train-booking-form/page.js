@@ -1,5 +1,5 @@
 import styles from "../../../page.module.css";
-const TrainBookingForm = () => {
+const TrainBookingFormPage = () => {
   return (
     <>
       <main>
@@ -54,4 +54,4 @@ const TrainBookingForm = () => {
   );
 };
 
-export default TrainBookingForm;
+export default TrainBookingFormPage;
