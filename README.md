@@ -6,25 +6,9 @@
 
 - This is my [Next.js](https://nextjs.org/) project which has **React Components**, **Bootstrap 5**, `css`, `JavaScript`, **Docker**, **MongoDB** and **PostgreSQL**.
 
-# Getting Started
+# Setup
 
-- First, run the development server:
-
-  ```bash
-  npm run dev
-  # or
-  yarn dev
-  # or
-  pnpm dev
-  # or
-  bun dev
-  ```
-
-- Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-# Deploy on Vercel
-
-- Project has been deployed on Vercel. Access it through, https://vercel.com/nyangwesos-rodgers/my-nextjs-app and web app on https://my-nextjs-app-sigma-ochre.vercel.app/
+- Check my [github.com/nyangweso-rodgers - Setting Next.js App](https://github.com/nyangweso-rodgers/Programming-with-JavaScript/blob/main/02-JavaScript-Libraries/01-React/03-React-Frameworks/01-Next.js/01-Setting-Next.js-App/Readme.md) github repo on how to configure and run `Next.js`
 
 # Setup CI/CD with Github Action
 
@@ -103,8 +87,5 @@
 
 # Resources
 
-1. [Next.js deployment documentation](https://nextjs.org/docs/deployment)
-2. [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-3. [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-4. [the Next.js GitHub repository](https://github.com/vercel/next.js/)
-5. [Setup CI/CD with Github Action in Nextjs](https://blog.curtisdev.com/setup-cicd-with-github-action-in-nextjs)
+1. [github.com/nyangweso-rodgers - Setting Next.js App](https://github.com/nyangweso-rodgers/Programming-with-JavaScript/blob/main/02-JavaScript-Libraries/01-React/03-React-Frameworks/01-Next.js/01-Setting-Next.js-App/Readme.md)
+2. [Setup CI/CD with Github Action in Nextjs](https://blog.curtisdev.com/setup-cicd-with-github-action-in-nextjs)

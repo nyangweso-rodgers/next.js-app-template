@@ -1,6 +1,6 @@
 "use client";
 
-const BlogPage = () => {
+const BlogHeaderPage = () => {
   return (
     <>
       <header>
@@ -15,4 +15,4 @@ const BlogPage = () => {
     </>
   );
 };
-export default BlogPage;
+export default BlogHeaderPage;
