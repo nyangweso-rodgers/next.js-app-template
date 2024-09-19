@@ -12,7 +12,7 @@ const FooterPage = () => {
           </div>
           <div className={`row`}>
             <div className={`col-sm-6 border`}>
-              <div className={`${styles.flexContainerWithFlexStart}`}>
+              <div className={`${pageStyles.flexContainerWithFlexStart}`}>
                 <a
                   className={`fa-brands fa-linkedin`}
                   target="_blank"
@@ -36,7 +36,7 @@ const FooterPage = () => {
               </div>
             </div>
             <div className={`col-sm-6 border`}>
-              <div className={`${styles.flexContainerWithFlexEnd}`}>
+              <div className={`${pageStyles.flexContainerWithFlexEnd}`}>
                 <div>
                   <span>Terms Of Use</span>
                 </div>

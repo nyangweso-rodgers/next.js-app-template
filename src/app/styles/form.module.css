@@ -1,0 +1,15 @@
+.formInput {
+  min-height: 6vh;
+  background: #fdfdfe;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-weight: 600;
+  font-size: 16px;
+}
+.formTextarea {
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+  padding: 0.25rem 1.2rem;
+}

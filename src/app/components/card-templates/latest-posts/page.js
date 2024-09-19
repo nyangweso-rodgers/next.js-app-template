@@ -19,7 +19,7 @@ const LatestPostsPage = () => {
             <div className={`col-md-3`}>
               <div className={`card ${pageStyles.latestPostCard}`}>
                 <div className={`card-body ${pageStyles.latestPostCardBody}`}>
-                  <h2 className="">Card Title Goes Here</h2>
+                  <h3 className="">Card Title Goes Here</h3>
                   <p className="">
                     Title paragraph goes here, test
                   </p>
@@ -35,7 +35,7 @@ const LatestPostsPage = () => {
             <div className={`col-md-3`}>
               <div className={`card ${pageStyles.latestPostCard}`}>
                 <div className={`card-body ${pageStyles.latestPostCardBody}`}>
-                  <h2 className="">Second card title foe </h2>
+                  <h3 className="">Second card title foe </h3>
                   <p className="">
                     Second title paragraph goes, test
                   </p>
@@ -51,7 +51,7 @@ const LatestPostsPage = () => {
             <div className={`col-md-3`}>
               <div className={`card ${pageStyles.latestPostCard}`}>
                 <div className={`card-body ${pageStyles.latestPostCardBody}`}>
-                  <h2 className="">Third Card Title Goes Here</h2>
+                  <h3 className="">Third Card Title Goes Here</h3>
                   <p className="">
                     Third title paragraph goes here
                   </p>
@@ -67,9 +67,9 @@ const LatestPostsPage = () => {
             <div className={`col-md-3`}>
               <div className={`card ${pageStyles.latestPostCard}`}>
                 <div className={`card-body ${pageStyles.latestPostCardBody}`}>
-                  <h2 className="">
+                  <h3 className="">
                     Fourth Card Title Goes Here
-                  </h2>
+                  </h3>
                   <p className="">
                     Fourth title paragraph goes here
                   </p>

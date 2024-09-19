@@ -1,10 +1,21 @@
+.row {
+  padding: 1.2rem 0;
+}
+.section {
+  padding: 2rem 0;
+  border: 1px dotted #ffa600;
+}
 .main {
   padding: 4rem 0;
   border: 1px dotted red;
 }
-.footer {
-  padding: 2rem 0;
-  background-color: #dce2f0;
+.flexColumnContainer {
+  display: flex;
+  flex-direction: column;
+}
+.flexColumnContainer > a,
+.flexColumnContainer > div {
+  margin: 10px 0;
 }
 .displayFlexRowStartContainer {
   display: flex;
@@ -40,54 +51,6 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   align-items: center;
-}
-
-.latestPostCard {
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  height: 100%;
-}
-
-.latestPostCardBody {
-  display: flex;
-  flex-direction: column;
-}
-.latestPostCardBody h2 {
-  margin-bottom: 0; /* Remove default margin to ensure consistent spacing */
-  color: #3b6f78;
-  font-size: 1.5rem;
-  padding: 0.5rem 0;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
-.latestPostCardBody p {
-  margin-top: auto; /* Pushes the <p> element to the bottom */
-  font-size: 1.25rem;
-  line-height: 1.5;
-  margin-bottom: 1rem;
-}
-
-.latestPostCard .latestPostCardBody .latestPostCardLink {
-  align-self: flex-start;
-  margin-top: auto;
-  padding-top: 1rem;
-}
-.latestPostCardLink {
-  border-top: 1px solid #eaeaea;
-}
-
-.latestPostCard a:hover,
-.latestPostCard a:focus,
-.latestPostCard a:active {
-  text-decoration: underline;
-}
-.latestPostCard:hover,
-.latestPostCard:focus,
-.latestPostCard:active {
-  color: #198754;
-  border-color: #3b6f78;
 }
 
 /*
