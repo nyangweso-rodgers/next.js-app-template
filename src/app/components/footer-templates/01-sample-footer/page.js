@@ -7,9 +7,9 @@ const FooterPage = () => {
   return (
     <>
       <footer>
-        <div className={`container border border-primary p-5`}>
-          <div className={`row border border-secondary p-4`}>
-            <div className={`col-sm-9 border border-info p-3`}>
+        <div className={`container`}>
+          <div className={`row `}>
+            <div className={`col-sm-9`}>
               <div className={`${pageStyles.flexColumnContainer}`}>
                 <div>
                   <h5>Leave a Comment</h5>
@@ -48,7 +48,7 @@ const FooterPage = () => {
                 </div>
               </div>
             </div>
-            <div className={`col-sm-3 border border-dark p-3`}>
+            <div className={`col-sm-3`}>
               <div className={`${pageStyles.flexColumnContainer}`}>
                 <div>
                   <h5>Social</h5>
@@ -85,6 +85,26 @@ const FooterPage = () => {
                   ></a>
                   <span className="">Twitter</span>
                 </div>
+              </div>
+            </div>
+          </div>
+          <div className={`row`}>
+            <div>
+              <hr />
+            </div>
+          </div>
+
+          <div className={`row`}>
+            <div className={`${pageStyles.flexRowContainer}`}>
+              <div>
+                <span>&copy;</span> <span>{new Date().getFullYear()}</span>{" "}
+                <span>Rodgers Nyangweso. All rights reserved.</span>
+              </div>
+              <div>
+                <span>Terms Of Use</span>
+              </div>
+              <div>
+                <span>Privacy Policy</span>
               </div>
             </div>
           </div>
