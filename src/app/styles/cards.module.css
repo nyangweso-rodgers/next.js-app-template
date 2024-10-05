@@ -1,0 +1,113 @@
+.card {
+  height: 100%;
+  /*border: 1px solid red;*/
+  background-color: rgb(12, 22, 164);
+  transition: opacity 0.4s ease;
+}
+
+.cards:hover > :not(:hover) {
+  opacity: 0.5;
+}
+/* Profile Card Styles */
+.profileCard {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  /*padding: 16px;*/
+  /*margin: 16px;*/
+  margin-top: 10px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  /*max-width: 300px;*/
+  text-align: center;
+}
+.profileCard .profileImage {
+  border-radius: 50%;
+  /*width: 100px;*/
+  /*height: 100px;*/
+  object-fit: cover;
+  /*margin-bottom: 16px;*/
+  margin-bottom: 0.5rem;
+}
+.profileCard .profileTitle {
+  font-size: 1.2em;
+  font-weight: bold;
+  /*margin-bottom: 8px;*/
+  margin-bottom: 0.5rem;
+}
+
+.profileCard .profileJobTitle {
+  font-size: 1em;
+  color: #777;
+  /*margin-bottom: 16px;*/
+  margin-bottom: 0.5rem;
+}
+
+.profileCard .profileDescription {
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Blog Post Card */
+.blogPostCard {
+  /*background-color: rgb(202, 187, 167);*/
+  background-color: #f9f9ff;
+  /*transition: opacity 0.4s ease;*/
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  /*padding: 20px;*/
+  padding: 0.5rem 0;
+  height: 100%;
+}
+.blogPostCard h4 {
+  font-size: 2em;
+  /*margin-bottom: 10px;*/
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+.blogPostCard .meta {
+  font-size: 0.9em;
+  color: #777;
+  /*margin-bottom: 15px;*/
+  margin-bottom: 0.5rem;
+}
+
+.blogPostCard.content {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+.blogPostCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.blogPostCard .blogImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  /*margin-bottom: 15px;*/
+  margin-bottom: 0.5rem;
+}
+
+.blogPostCard .readMoreButton {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.readMoreButton:hover,
+.readMoreButton:focus,
+.readMoreButton:active {
+  background-color: #2980b9;
+}
