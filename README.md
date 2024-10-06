@@ -85,7 +85,7 @@
   ```
 - Now that you are in the Postgres container, you can type: `\l` or `\dt` And you should see no relations.
 
-# Resources
+# Resources and Further Reading
 
 1. [github.com/nyangweso-rodgers - Setting Next.js App](https://github.com/nyangweso-rodgers/Programming-with-JavaScript/blob/main/02-JavaScript-Libraries/01-React/03-React-Frameworks/01-Next.js/01-Setting-Next.js-App/Readme.md)
 2. [Setup CI/CD with Github Action in Nextjs](https://blog.curtisdev.com/setup-cicd-with-github-action-in-nextjs)
